@@ -72,36 +72,38 @@
     </div>
 
     <div class="row g-6 mx-3 my-3">
-      <div class="col">
-        <label for="cardAccepted">We accept:</label>
-        <br></br>
-        <div class="badge bg-secondary align-items-center">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-            <i class="fa-brands fa-cc-mastercard" style="color: #a9aaad;"></i>
+      <div class="col d-flex flex-column">
+        
+        <label for="cardAccepted mb-3">We accept:</label>
+        <span class="d-flex">
+          <div class="badge bg-secondary align-items-center d-flex">
+            <div class="form-check form-check-inline d-flex align-items-center">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <i class="fa-brands fa-cc-mastercard d-flex mt-1 ms-1" style="color: #a9aaad;"></i>
+            </div>
+            <div class="form-check form-check-inline  d-flex align-items-center">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <i class="fa-brands fa-cc-visa d-flex mt-1 ms-1" style="color: #a9aaad;"></i>
+            </div>
+            <div class="form-check form-check-inline  d-flex align-items-center">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option3">
+              <i class="fa-brands fa-cc-diners-club d-flex mt-1 ms-1" style="color: #a9aaad;"></i>
+            </div>
+            <div class="form-check form-check-inline d-flex align-items-center">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option4">
+              <i class="fa-brands fa-cc-amex d-flex mt-1 ms-1" style="color: #a9aaad;"></i>
+            </div>
           </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <i class="fa-brands fa-cc-visa" style="color: #a9aaad;"></i>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option3">
-            <i class="fa-brands fa-cc-diners-club" style="color: #a9aaad;"></i>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option4">
-            <i class="fa-brands fa-cc-amex" style="color: #a9aaad;"></i>
-          </div>
-        </div>
+        </span>
       </div>
 
-      <div class="col">
-        <div class="form-group col">
-          <label for="textMessage">Message</label>
-          <textarea class="form-control" id="textMessage" rows="3"></textarea>
-          <footer class="text-secondary"> Add any note here </footer>
-        </div>
+    <div class="col">
+      <div class="form-group col">
+        <label for="textMessage">Message</label>
+        <textarea class="form-control" id="textMessage" rows="3"></textarea>
+        <footer class="text-secondary"> Add any note here </footer>
       </div>
+    </div>
     </div>
     <div class="p-3 bg-light border-top">
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
